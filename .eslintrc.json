@@ -1,0 +1,33 @@
+{
+    "extends": [
+        "eslint:all"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 6
+    },
+    "rules": {
+        "comma-dangle": ["error", {
+            "arrays": "always",
+            "objects": "never",
+            "imports": "always",
+            "exports": "always",
+            "functions": "ignore"
+        }],
+        "func-names": ["error", "never"],
+        "global-require": "off",
+        "indent": ["error", 4],
+        "linebreak-style": ["error", "windows"],
+        "max-len": "off",
+        "max-lines": "off",
+        "multiline-comment-style": "off",
+        "no-console": "off",
+        "no-implicit-globals": "off",
+        "no-param-reassign": "off",
+        "no-var": "off",
+        "object-shorthand": "off",
+        "one-var": "off",
+        "strict": ["error", "never"],
+        "padded-blocks": ["error", "never"],
+        "prefer-arrow-callback": "off"
+    }
+}
